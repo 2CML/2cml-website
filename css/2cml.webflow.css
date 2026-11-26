@@ -835,6 +835,28 @@
   position: relative;
 }
 
+.image-row-sixteen {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  gap: 8px;
+  width: 100%;
+  padding: 1% 17% 1% 17%
+}
+
+.image-row-fifteen {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 16px;
+  width: 100%;
+  padding: 0% 20% 0% 20%
+}
+
+.image-rounded {
+  border-radius: 25px;
+  max-width: 65px;
+  height: auto;
+}
+
 .section-13 {
   z-index: 3;
   position: relative;
